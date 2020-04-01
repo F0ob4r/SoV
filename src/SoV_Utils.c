@@ -165,7 +165,7 @@ char		*packettos(u_int first_layer, packet_layers_t *packet, u_int last_layer, u
 				res = malloc(SNAP_LEN);
 				res[0] = 0;
 			}
-			strlcat(res, buffer + (with_raw ? 0 : 1), SNAP_LEN);
+			strncat(res, buffer + (with_raw ? 0 : 1), SNAP_LEN);
 		}
 		first_layer++;
 	}
