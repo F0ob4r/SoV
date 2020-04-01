@@ -4,6 +4,8 @@ Written by Eric Doughty-Papassideris
 
 http://s-softs.com/SoV.html
 
+Edited by Erik Weidig
+
 Description
 -----------
 SoV allows to connect to a starcraft game
@@ -41,6 +43,11 @@ Credits
   - Portions in SoV_Utils.* under the following notices:
 	-	Copyright (c) 1999 - 2005 NetGroup, Politecnico di Torino (Italy)
 	-	Copyright (c) 2005 - 2006 CACE Technologies, Davis (California)
+	
+Requirements
+------------
+libpcap-dev
+
 
 License
 -------
